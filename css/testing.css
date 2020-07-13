@@ -1,0 +1,162 @@
+html{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+body{
+    background: rgb(204, 198, 198) !important;
+    color: rgb(5, 5, 5);
+
+}
+
+
+
+/*  */
+/* Navbar for mobile*/
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 5;
+    left:-100vw;
+    top: 0;
+    left: 0;
+    background-color: rgb(41, 40, 40);
+    overflow: hidden; 
+    transition: 0.5s; 
+  }
+
+.overlay-content ul{
+   list-style: none;
+ }
+
+  /* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px; 
+}
+
+  /* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block; 
+    transition: 0.3s; 
+    font-size: 1.2em;
+}
+
+  /* Position the close button (top right corner) */ 
+.overlay .closebtn {
+    position: absolute;
+    right: 35px;
+    top: 2px;
+    font-weight: 900;
+  }
+
+ 
+
+
+
+
+
+   /* --------------------------------------------------------------media queries */
+ 
+ /* // Extra small devices (portrait phones, less than 576px) */
+ /* // No media query for `xs` since this is the default in Bootstrap */
+ 
+ /* // -Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (orientation: landscape) { 
+ 
+   
+ }
+ 
+ /* -Medium devices (tablets or ipad) */
+ @media (min-width: 768px) {
+
+  
+}
+ 
+ /* -Large devices (ipad pro) */
+ @media (min-width: 992px) { 
+
+      /* media icons */
+  .icons{
+    margin-left: 75%;
+    margin-bottom: -5vh;
+    margin-top: 50px;
+  }
+  
+
+  .mobile-only{
+      display: none;
+  }
+  .Desktop{
+  display: block;
+  color: white;
+  }  
+  /* navbar desktop */
+  #myNav{
+  display: none;
+  }
+  ul.desktop-nav{
+      list-style: none;
+      text-decoration: none;
+  }     
+  /* desktop navbar */
+  .DesktopNavbar{
+    display: inline-block;
+  }
+  .nav-link{
+    color: white;
+    margin-left: 10px;
+    font-weight: 200;
+    font-size: 0.8em;
+  }
+  .nav-link:hover{
+      color: #f7931e;
+      text-shadow: 0 -1px 0 #eb5e28;
+  }    
+   
+   
+  
+    
+ }
+ @media screen and (min-width: 1200px) {
+     
+  
+  /* media icons */
+  .icons{
+      margin-left: 65%;
+      margin-bottom: 9vh;
+  }
+
+  
+   
+    /* media icons on the navbar */
+  .MediaDiv{
+    margin-bottom: -40vh;
+    padding-top: 50px;
+    margin-left: 15vw;
+    }
+    /* hr line */
+  .NameHrLine{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  /* tagline section */
+ 
+ 
+ 
+  
+ 
+   }
+  
+   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}

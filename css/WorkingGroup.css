@@ -1,0 +1,52 @@
+body{
+    background-color: hotpink;
+}
+
+footer {
+    display: block;
+}
+
+.icon{
+    display: inline-block;
+    font-size: 22px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 2px;
+}
+.F-Icons{
+    margin-left: 25vw;
+    margin-top: 5vh;
+}
+.copyright{
+
+    font-size: 0.8em;
+    margin-left:38vw ;
+}
+.hide{
+    display: block;
+}
+.hid{
+    display: none;
+}
+@media screen and (min-width: 1200px) {
+    .hide{
+        display: none;
+    }
+    .hid{
+        display: block;
+    }
+    hr{
+        margin-top: -2vh;
+    }
+    .copyright{
+        margin-top: 1vh;
+        margin-left: 43vw;
+    }
+    .F-Icons{
+        margin-top: -1.5vh;
+         margin-left: 43vw;
+    }
+}
