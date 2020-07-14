@@ -28,7 +28,7 @@ body, html {
   }
 
   .one{
-    background-image: url('https://www.dhk.co.za/wp-content/uploads/2019/03/01_dhk_Capitec_Adam-Letch.jpg');
+    background-image: url('https://gsquared.co.za/wp-content/uploads/2019/08/GSQUARED-Exterior-3-2400x1600.jpg');
   }
 
   .two{
@@ -41,6 +41,9 @@ body, html {
 
   .four{
     background-image: url('https://www.thespruce.com/thmb/d_v15Xvrf64drPPsUzNFLHPj2OM=/3024x3024/filters:fill(auto,1)/pixasquare-4ojhpgKpS68-unsplash-ca4afd459306430ab50c2cc32ce2715d.jpg');
+  }
+  .five{
+    background-image: url('https://www.architecturalrecord.com/ext/resources/Issues/2016/May/1605-Architecture-Creativity-Zaha-Hadid-01.jpg?1461696438');
   }
 
   .navbar{
