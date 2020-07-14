@@ -22,8 +22,9 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-background-color:  #7d59ac;
+background-color:  gray;
 outline: 1px solid rgb(7, 7, 7);
+
 }
 
 /* paragraph text for all the pages and sections */
@@ -62,6 +63,11 @@ h4{
 }
 a{
     color: rgb(0, 0, 0);
+}
+
+a:hover{
+    color: rgb(128, 128, 128);
+    font-weight: 600;
 }
 
 
@@ -124,7 +130,7 @@ a{
     width: 80vw;
     
 }
-/*footer section */
+/*about us page*/
 .icon{
     display: inline-block;
     font-size: 1em;
@@ -136,6 +142,16 @@ a{
     padding-top: 7px;
     /* background-color: white; */
     background-color:  rgb(209, 204, 204);
+}
+.icons{
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    
 }
 /* footer section */
  /* footer text */
