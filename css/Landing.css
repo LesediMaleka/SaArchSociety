@@ -2,10 +2,23 @@ body, html {
     height: 100%;
   }
 
-  a{
+  nav{
       color: black;
       font-size: 1.5em;
   }
+
+
+  /* footer */
+  .icon{
+    display: inline-block;
+    font-size: 1.5em;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+   
+}
 
   a:hover{
       color: hotpink;
@@ -53,13 +66,13 @@ body, html {
   .social{
       z-index: 2;
       position: fixed;
-      transform: translate(780px,720px);
-      font-size: 2em;
+      transform: translate(100px,590px);
   }
 
+ 
+
   .media{
-      /* color: white; */
-      color: #000;
+      color: white;
       display: inline-block;
   }
 
@@ -73,6 +86,11 @@ body, html {
     
  
  @media screen and (min-width: 1200px) {
+
+  /* landing page media icons */
+  .social{
+    transform: translate(750px,715px);
+}
      
  
    }
