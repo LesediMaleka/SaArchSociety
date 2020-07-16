@@ -26,8 +26,91 @@ outline: 1px solid rgb(7, 7, 7);
 
 }
 
+.MediaDiv{
+    /* 
+        font-size: 1.5em; */
+        z-index: 20;
+        /* margin-left:-2vw; */
+    }
+
+
+/* Navbar for mobile*/
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:-100vw;
+    top: 0;
+    left: 0;
+    background-color: rgb(241, 234, 234);
+    color: rgb(12, 12, 12);
+    overflow: hidden; 
+    transition: 0.5s;
+  }
+
+.overlay-content ul{
+   list-style: none;
+ }
+
+  /* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px; 
+}
+
+  /* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; 
+    transition: 0.3s; 
+    font-size: 1.5em;
+}
+
+  /* Position the close button (top right corner) */ 
+.overlay .closebtn {
+    position: absolute;
+    right: 35px;
+    top: 2px;
+    font-weight: 900;
+  }
+
+ /*media icons */
+.icon{
+    display: inline-block;
+    font-size: 1.5em;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 2px;
+}
+  /* media icons */
+  .icon.mobile{
+    float: right;
+    color: white;
+  }
+
+ /* burger navbar */
+.Bars{
+    margin-left: -5vw;
+}
+
+.Desktop{
+    display: none;
+
+}
+
 /* navbar */
-nav{
+.navbar-expand-lg{
     color: black;
     font-size: 1.5em;
 }
@@ -161,7 +244,7 @@ footer{
     color: hotpink;
 }
 
-   /* --------------------------------------------------------------media queries */
+   /* --------------------media queries */
  
  /* // Extra small devices (portrait phones, less than 576px) */
  /* // No media query for `xs` since this is the default in Bootstrap */
@@ -176,7 +259,15 @@ footer{
  @media (min-width: 768px) {
 
     
-  
+   /* navbar section*/
+   .TabletNavbar{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+  }
+   /* burger navbar */
+  .Bars{
+    margin-left: 5vw;
+  }
 
     /* Clients page */
 .ClientsImages{
@@ -210,9 +301,13 @@ footer{
  
  /* -Large devices (ipad pro) */
  @media (min-width: 992px) { 
-.DesktopOnly{
+    .mobile-only{
+        display: none;
+    }
+    .Desktop{
     display: block;
-}
+    color: black;
+    }  
 
 /* Landing page */
 
