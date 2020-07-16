@@ -10,7 +10,6 @@ body{
     color: black;
     font-family: 'Montserrat', sans-serif;
     color: rgb(8, 2, 2);
-    font-size: 1.5em;
     overflow-x: hidden; 
     overflow-y: hidden;
 }
@@ -27,6 +26,95 @@ outline: 1px solid rgb(7, 7, 7);
 
 }
 
+.MediaDiv{
+    /* 
+        font-size: 1.5em; */
+        z-index: 20;
+        /* margin-left:-2vw; */
+    }
+
+
+/* Navbar for mobile*/
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:-100vw;
+    top: 0;
+    left: 0;
+    background-color: rgb(241, 234, 234);
+    color: rgb(12, 12, 12);
+    overflow: hidden; 
+    transition: 0.5s;
+  }
+
+.overlay-content ul{
+   list-style: none;
+ }
+
+  /* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px; 
+}
+
+  /* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; 
+    transition: 0.3s; 
+    font-size: 1.5em;
+}
+
+  /* Position the close button (top right corner) */ 
+.overlay .closebtn {
+    position: absolute;
+    right: 35px;
+    top: 2px;
+    font-weight: 900;
+  }
+
+ /*media icons */
+.icon{
+    display: inline-block;
+    font-size: 1.5em;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 2px;
+}
+  /* media icons */
+  .icon.mobile{
+    float: right;
+    color: white;
+  }
+
+ /* burger navbar */
+.Bars{
+    margin-left: -5vw;
+}
+
+.Desktop{
+    display: none;
+
+}
+
+/* navbar */
+.navbar-expand-lg{
+    color: black;
+    font-size: 1.5em;
+}
+
 /* paragraph text for all the pages and sections */
 p{
     font-size: 14px;
@@ -39,15 +127,7 @@ p{
 
 h4{
     font-size: 18px;
-   
 }
-
-/* hr line */
-.NameHrLine{
-    border-top: 2px solid #0f0f0e;
-    margin: 20px;
-}
-
 
 /*  general classes*/
 .hideMobile{
@@ -67,44 +147,13 @@ a{
 
 a:hover{
     color: rgb(128, 128, 128);
-    font-weight: 600;
 }
-
-
 
 
 /* about us page */
 .AboutUsImage{
     width: 100%;
 }
-/* courses section */
-.CourseDiv:hover{
-    background-color: rgb(255, 0, 149);
-    opacity: 0.2;
-    width: 100%;
-    height: auto;
-}
-.CoursesImages{
-    width: 100%;
-}
-.CoursesButton{
-    margin-left: 20vw;
-    color: white;
-    background-color: #0f0f0e;
-    border-radius: 50px;
-    font-weight: 600;
-    width: 60vw;
-    padding: 10px;
-}
-
-/* meet our team section */
-
-.FacilitatorName:hover{
-    opacity: 0.6;
-    color: rgb(255, 0, 149);
-    font-size: 1em;
-}
-
 /*contact section/page */
 .FormButton{
     color: white;
@@ -133,7 +182,7 @@ a:hover{
 /*about us page*/
 .icon{
     display: inline-block;
-    font-size: 1em;
+    font-size: 1.5em;
     border: 1.5px solid white;
     border-radius: 50%;
     height: 40px;
@@ -143,9 +192,29 @@ a:hover{
     /* background-color: white; */
     background-color:  rgb(209, 204, 204);
 }
-.icons{
+    /* Clients page */
+    .ClientsImages{
+        width: 100%;
+    }
+    .ProjectImage{
+        width: 100%;
+    }
+    .ImageDiv:hover{
+    color: rgb(160, 23, 240);
+    opacity: 0.4;
+    cursor: pointer;
+    }
+
+    /* .ImageDiv{
+        z-index: 2;
+    } */
+
+/* footer section */
+ /* footer text */
+
+ .icons{
     display: inline-block;
-    font-size: 1em;
+    font-size: 1.5em;
     border-radius: 50%;
     height: 40px;
     width: 40px;
@@ -153,8 +222,6 @@ a:hover{
     padding-top: 7px;
     
 }
-/* footer section */
- /* footer text */
  .CopyText{
     text-align: center;
     font-size: 18px;
@@ -167,7 +234,17 @@ footer{
     margin-top: -3vh;
 }
 
-   /* --------------------------------------------------------------media queries */
+.ProjectText{
+    transform: translate(-70px,-310px);
+    color: hotpink;
+}
+
+.TypeOfProject{
+    transform: translate(10px,-120px);
+    color: hotpink;
+}
+
+   /* --------------------media queries */
  
  /* // Extra small devices (portrait phones, less than 576px) */
  /* // No media query for `xs` since this is the default in Bootstrap */
@@ -181,30 +258,41 @@ footer{
  /* -Medium devices (tablets or ipad) */
  @media (min-width: 768px) {
 
+    
+   /* navbar section*/
+   .TabletNavbar{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+  }
+   /* burger navbar */
+  .Bars{
+    margin-left: 5vw;
+  }
 
-    /* Landing page */
-
-.carousel-item{
-    width: 100%;
-    height: 60%;
-}
-    /* about us page */
-.CoursesImages{
+    /* Clients page */
+.ClientsImages{
     width: 60%;
+}
+/* about us page */
+.AboutUsImage{
+    width: 60%;
+}
+
+.ProjectImage{
+    width: 80%;
 }
 
 .FormButton{
     width: 25vw;
     margin-left: 20vw;
 }
-.CoursesButton{
-    margin-left: 40vw;
-    width: 25vw;
+.ProjectText{
+    transform: translate(50px,200px);
+    z-index: 10;
 }
-/* about us section */
-.AboutButton{
-    margin-left: 20vw;
-    width: 25vw;
+.TypeOfProject{
+    transform: translate(50px,200px);
+    z-index: 10;
 }
 
 
@@ -213,9 +301,13 @@ footer{
  
  /* -Large devices (ipad pro) */
  @media (min-width: 992px) { 
-.DesktopOnly{
+    .mobile-only{
+        display: none;
+    }
+    .Desktop{
     display: block;
-}
+    color: black;
+    }  
 
 /* Landing page */
 
@@ -223,28 +315,21 @@ footer{
     width: 20vw;
     margin-left: 15vw;
 }
-.CoursesButton{
-    margin-left: 40vw;
-    width: 20vw;
-}
-/* about us section */
-.AboutButton{
-    margin-left: 15vw;
-    width: 20vw;
-}
-.AboutUsImage{
-    width: 70%;
-}
 
-
-/* become a member page */
-.form-controlTwo{
-    width: 40vw;
-    
-}
     
  }
  @media screen and (min-width: 1200px) {
+
+    .ProjectText{
+        transform: translate(50px,-80px);
+        z-index: 10;
+        color: hotpink;
+    }
+    .TypeOfProject{
+        transform: translate(50px,-20px);
+        z-index: 10;
+        color: hotpink;
+    }
      
  
    }
