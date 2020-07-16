@@ -113,11 +113,18 @@ a:hover{
     .ClientsImages{
         width: 100%;
     }
+    .ProjectImage{
+        width: 100%;
+    }
     .ImageDiv:hover{
     color: rgb(160, 23, 240);
     opacity: 0.4;
     cursor: pointer;
     }
+
+    /* .ImageDiv{
+        z-index: 2;
+    } */
 
 /* footer section */
  /* footer text */
@@ -144,6 +151,16 @@ footer{
     margin-top: -3vh;
 }
 
+.ProjectText{
+    transform: translate(-70px,-310px);
+    color: hotpink;
+}
+
+.TypeOfProject{
+    transform: translate(10px,-120px);
+    color: hotpink;
+}
+
    /* --------------------------------------------------------------media queries */
  
  /* // Extra small devices (portrait phones, less than 576px) */
@@ -158,19 +175,34 @@ footer{
  /* -Medium devices (tablets or ipad) */
  @media (min-width: 768px) {
 
-
+    
   
 
     /* Clients page */
 .ClientsImages{
     width: 60%;
 }
+/* about us page */
+.AboutUsImage{
+    width: 60%;
+}
+
+.ProjectImage{
+    width: 80%;
+}
 
 .FormButton{
     width: 25vw;
     margin-left: 20vw;
 }
-
+.ProjectText{
+    transform: translate(50px,200px);
+    z-index: 10;
+}
+.TypeOfProject{
+    transform: translate(50px,200px);
+    z-index: 10;
+}
 
 
 
@@ -192,6 +224,17 @@ footer{
     
  }
  @media screen and (min-width: 1200px) {
+
+    .ProjectText{
+        transform: translate(50px,-80px);
+        z-index: 10;
+        color: hotpink;
+    }
+    .TypeOfProject{
+        transform: translate(50px,-20px);
+        z-index: 10;
+        color: hotpink;
+    }
      
  
    }
