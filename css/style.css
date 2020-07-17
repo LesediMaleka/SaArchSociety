@@ -153,6 +153,7 @@ a:hover{
 /* about us page */
 .AboutUsImage{
     width: 100%;
+    
 }
 /*contact section/page */
 .FormButton{
@@ -268,7 +269,10 @@ footer{
   .Bars{
     margin-left: 5vw;
   }
-
+/* about us page */
+.AboutUsImage{
+    margin-left: 20%;
+}
     /* Clients page */
 .ClientsImages{
     width: 60%;
