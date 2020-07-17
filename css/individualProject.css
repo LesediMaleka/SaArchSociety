@@ -1,24 +1,26 @@
-.developerImage{
-    margin-top: 50%;
-    width: 100%;
-    height:50%;
+
+.heroImage{
+  width: 100%;
 }
-.greyDiv{
-    /* position: relative;
-    bottom: 200%; */
-    width: 90vw;
-    height: auto;
-    margin: auto;
-    text-align: center;
-    /* background:#1A1A1A; */
-   
+
+hr{
+  border: 2px solid black;
 }
-.taglineParagraph{
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-size: 1em;
-    font-weight: 350;
-    text-align: justify;
+p{
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 18px;
+  text-align: justify;
+  text-size-adjust: 2px;
+  margin: 20px;
+}
+.projectName{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: justify;
+  text-size-adjust: 2px;
+  margin: 20px;
 }
 
  /* --------------------------------------------------------------media queries */
@@ -32,27 +34,13 @@
 
 /* // --------------------------------------------------------------Medium devices (tablets) */
 @media (min-width: 768px) {
-    .developerImage{
-        margin-bottom: 2vh;
-      } 
-
-      .TaglineDiv{
-        margin-bottom: 2vh;
-      }
+    
       
 }
 
 /* // --------------------------------------------------------------Large devices (ipad pro) */
 @media (min-width: 992px) {
-    .developerImage{
-        width: 230px;
-        margin-top: 5vh;
-        margin-left: -5vw;
-      }  
    
-      .TaglineDiv{
-        margin-top:5vh;
-      }
   
 }
 
@@ -61,15 +49,9 @@
 }
 /* --------------------------------------------------------------Extra large devices landscape */
 @media (min-width: 1200px) and (orientation: landscape) { 
-     /* about me section */
-  .developerImage{
-    width: 260px;
+  .heroImage{
+    width: 100%;
   }
-
-  /* .greyDiv{
-    width: 86vw;
-  } */
-   
 }
 
 /* --------------------------------------------------------------Internet Explorer */
