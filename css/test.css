@@ -1,0 +1,164 @@
+
+ html {
+    max-width: 100vw;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+    padding: 0;
+    margin:0;
+    background-color: rgb(221, 220, 220);
+}
+
+
+/* navbar and header || landing page section*************************************************************************************************************************************/
+
+
+
+
+.socials{
+    border: 1px solid #84a9ac;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+    padding-top: 1px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+/*Footer Section*/
+.word-footer{
+    font-size: 20px; 
+}
+
+.Fsocials{
+    margin-left: 165px;
+}
+
+
+/*-----------------test STYLING----------------------*/
+
+
+.gallary-block{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.gallary-block .heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.gallary-block .heading h2{
+    font-weight: bold;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.gallary-block.compact-gallary .item{
+    overflow: hidden;
+    background: black;
+    margin-bottom: 0;
+    opacity:1;
+}
+.gallary-block.compact-gallary .item .imgages{
+    transition: 0.8s ease;
+}
+
+.gallary-block.compact-gallary .item .info{
+    position: relative;
+    display: inline-block;
+}
+
+.gallary-block.compact-gallary .item .description{
+    display: grid;
+    position: absolute;
+    left:0;
+    color: white;
+    bottom:0;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 18px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity:1;
+    color: white;
+    transition: 0.8s ease;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.39));
+}
+
+.gallary-block.compact-gallary .item .description .description-heading{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.gallary-block.compact-gallary .item .description .description-body{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+
+/* --------------------media queries */
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+
+
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+
+/* // ----Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (orientation: landscape) {
+
+
+    .gallary-block.compact-gallary .item .description{
+        opacity: 0;
+
+    }
+    .gallary-block.compact-gallary .item .description:hover{
+        opacity: 1;
+    }
+    .gallary-block .zoom-on-hover:hover .image{
+        transform: scale(1.3);
+        opacity: 0.7;
+
+    }
+
+
+
+}
+
+
+
+
+
+/* --------------------------------------------------------------Extra large devices landscape */
+
+@media (min-width: 1200px) and (orientation: landscape) {
+   
+
+    /*footer section*/
+    .Fsocials{
+        margin-left: 710px;
+    }
+    /* end of footer section*/
+
+}
+
+
+/* -----------------Internet Explorer */
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {} 
