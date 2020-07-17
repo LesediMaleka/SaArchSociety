@@ -1,0 +1,78 @@
+.developerImage{
+    margin-top: 50%;
+    width: 100%;
+    height:50%;
+}
+.greyDiv{
+    /* position: relative;
+    bottom: 200%; */
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    /* background:#1A1A1A; */
+   
+}
+.taglineParagraph{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 1em;
+    font-weight: 350;
+    text-align: justify;
+}
+
+ /* --------------------------------------------------------------media queries */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // --------------------------------------------------------------Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (orientation: landscape) { 
+}
+
+/* // --------------------------------------------------------------Medium devices (tablets) */
+@media (min-width: 768px) {
+    .developerImage{
+        margin-bottom: 2vh;
+      } 
+
+      .TaglineDiv{
+        margin-bottom: 2vh;
+      }
+      
+}
+
+/* // --------------------------------------------------------------Large devices (ipad pro) */
+@media (min-width: 992px) {
+    .developerImage{
+        width: 230px;
+        margin-top: 5vh;
+        margin-left: -5vw;
+      }  
+   
+      .TaglineDiv{
+        margin-top:5vh;
+      }
+  
+}
+
+/* // --------------------------------------------------------------Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}
+/* --------------------------------------------------------------Extra large devices landscape */
+@media (min-width: 1200px) and (orientation: landscape) { 
+     /* about me section */
+  .developerImage{
+    width: 260px;
+  }
+
+  /* .greyDiv{
+    width: 86vw;
+  } */
+   
+}
+
+/* --------------------------------------------------------------Internet Explorer */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+}
+
