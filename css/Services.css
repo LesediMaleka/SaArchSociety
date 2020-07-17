@@ -244,6 +244,17 @@ footer{
     color: hotpink;
 }
 
+
+.hide{
+    display: block;
+}
+.hid{
+    display: none;
+}
+.iconn{
+margin-left: 40vw;
+}
+
    /* --------------------media queries */
  
  /* // Extra small devices (portrait phones, less than 576px) */
@@ -330,7 +341,22 @@ footer{
         z-index: 10;
         color: hotpink;
     }
-     
+    .hide{
+        display: none;
+    }
+    .hid{
+        display: block;
+    }
+    .ContactDiv{
+        margin-top: 2vh;
+        margin-left: 3vw;
+    }
+    .card{
+        border: none;
+    }
+    .ico{
+        width: 50em;
+    }
  
    }
   
