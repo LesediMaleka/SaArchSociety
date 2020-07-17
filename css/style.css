@@ -271,16 +271,14 @@ footer{
   }
 /* about us page */
 .AboutUsImage{
+    width: 60%;
     margin-left: 20%;
 }
     /* Clients page */
 .ClientsImages{
     width: 60%;
 }
-/* about us page */
-.AboutUsImage{
-    width: 60%;
-}
+
 
 .ProjectImage{
     width: 80%;
