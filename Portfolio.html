@@ -6,8 +6,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- font family -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+   
+      <!-- font family link -->
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!---OUR CSS-->
     <link rel="stylesheet" href="css/Portfolio.css">
 
@@ -17,8 +18,20 @@
      <!-- fontawesome icon style link -->
      <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
 
-    <!--link for gallary-->
+    <!--link for the portfolio section-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"/>
+
+
+       <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+      <!-- link to animate.css -->
+      <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+      <!-- link to animate on scroll -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Portfolio</title>
   </head>
@@ -117,9 +130,6 @@
     </div>
       
 
-  
-    
-
       <!--Portfolio section-->
       <section class="PortfolioDiv PortfolioBlock">
           <div class="container">
@@ -127,26 +137,23 @@
             <h2 class="fs-3 fs-sm-4 text-underline mb-3 text-center">Portfolio</h2>
               <div class="row">
                   <div class="col-md-6 col-lg-4 PortfolioImage zoom-on-hover my-3">
-                      
+                     <a href="Commerial.html"> 
                     <img class="img-fluid image" src="assets/Images/ImagePlaceholder.jpg" alt="place holder image">
                     <span class="PortfolioDivText">
                         <span class="PortfolioHeading">
                           Commercial
 
-                        </span>
-                        
-
-                          
-
-                      
+                        </span>                      
                     </span>
                     </a>
                   </div>
                   
 
                   <div class="col-md-6 col-lg-4 PortfolioImage zoom-on-hover my-3">
-                    <a href="assets/Images/ImagePlaceholder.jpg" class="lightbox">
+                   
+                    <a href="Residential.html" class="lightbox">
                   <img class="img-fluid image" src="assets/Images/ImagePlaceholder.jpg" alt="place holder image">
+                 
                   <span class="PortfolioDivText">
                       <span class="PortfolioHeading">
                         Residential
@@ -154,12 +161,14 @@
                       </span>
                      
                   </span>
-                  </a>
+                </a>
                 </div>
+
+             
                
 
                 <div class="col-md-6 col-lg-4 PortfolioImage zoom-on-hover my-3">
-                    <a href="assets/Images/ImagePlaceholder.jpg" class="lightbox">
+                    <a href="HealthCare.html" class="lightbox">
                   <img class="img-fluid image" src="assets/Images/ImagePlaceholder.jpg"alt="place holder image">
                   <span class="PortfolioDivText">
                       <span class="PortfolioHeading">
@@ -245,9 +254,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 
-    <!-- own js -->
+    <!--My script link-->
     <script src="js/script.js"></script>
     <script src="js/sandbox.js"></script>
+
+
+      <!-- animate on scroll scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init();</script>
     
   
   </body>

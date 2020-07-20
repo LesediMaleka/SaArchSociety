@@ -168,11 +168,7 @@ a:hover{
     margin-bottom: 50px;
 }
 
-.PortfolioDiv  h2{
-    font-weight: bold;
-    font-size: 1.4em;
-    text-transform: uppercase;
-}
+
 
 .PortfolioDiv.PortfolioBlock .PortfolioImage{
     overflow: hidden;
@@ -209,15 +205,24 @@ a:hover{
 }
 
 .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText .PortfolioHeading{
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: -25vh;
+}
+.PortfolioHead{
+    font-size:1.5em;
+    font-weight: 600;
     margin-top: -30vh;
+    margin-right: 35vw;
+}
+.DescriptionPara{
+    font-size: 1.6em;
+    font-weight: 400;
+    
 }
 
 .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText{
     margin-top: 10px;
-    font-weight: 300;
-    font-size: 0.8em;
 }
 
 
@@ -239,26 +244,28 @@ a:hover{
         opacity: 0.7;
 
     }
+    .PortfolioHead{
+        margin-right: 10vw;
+    }
 
 
 
 }
 
+/* -Large devices (ipad pro) */
+@media (min-width: 992px) { 
+    .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText .PortfolioHeading{
+       
+        margin-top: -23vh;
+    }
 
+    
+ }
+ @media screen and (min-width: 1200px) {
 
-
-
-/* ------Extra large devices landscape */
-
-@media (min-width: 1200px) and (orientation: landscape) {
-   
-
-   
-
-}
-
-
-/* -----------------Internet Explorer */
-
-@media screen and (-ms-high-contrast: active),
-(-ms-high-contrast: none) {} 
+  
+     
+ 
+   }
+  
+ @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}
