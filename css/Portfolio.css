@@ -209,9 +209,9 @@ a:hover{
 }
 
 .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText .PortfolioHeading{
-    font-size: 1em;
-    font-weight: bold;
-    margin-top: 20vh;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: -30vh;
 }
 
 .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText{
