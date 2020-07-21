@@ -1,6 +1,7 @@
 
 .heroImage{
   width: 100%;
+  
 }
 
 hr{
@@ -21,6 +22,16 @@ p{
   text-align: justify;
   text-size-adjust: 2px;
   margin: 20px;
+}
+
+
+.div{
+  width: 90vw;
+  /* height: auto; */
+  margin: auto;
+  text-align: center;
+  background:lightcoral;
+  margin-bottom: 5vh;
 }
 
  /* --------------------------------------------------------------media queries */
@@ -50,11 +61,30 @@ p{
 /* --------------------------------------------------------------Extra large devices landscape */
 @media (min-width: 1200px) and (orientation: landscape) { 
   .heroImage{
-    width: 100%;
+      margin-top: -12.3%;
+      width: 90%;
+      height: 76vh;
+      /* margin-bottom: 80vh; */
+  
   }
+
+ 
+.div{
+  margin-top: 5%;
+  width: 90%;
+  height:80%;
+  padding: 20vh;
+  /* margin-bottom: 10vh; */
+}
 }
 
 /* --------------------------------------------------------------Internet Explorer */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 }
+
+
+
+
+
+ 
 
