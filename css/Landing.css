@@ -174,7 +174,7 @@ outline: 1px solid rgb(7, 7, 7);
   .social{
       z-index: 2;
       position: fixed;
-      transform: translate(80px,540px);
+      transform: translate(20px,500px);
   }
 
  
