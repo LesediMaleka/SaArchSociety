@@ -18,6 +18,36 @@
   background-image:url(../assets/Images/CommericialFour.jpg);
 }
 
+.im4{
+  background-image:url(../assets/Images/CommericialFive.jpg);
+}
+
+.im5{
+  background-image:url(../assets/Images/ResidentialTwo.jpg);
+}
+
+.im6{
+  background-image:url(../assets/Images/ResidentialFive.jpg);
+}
+
+.im7{
+  background-image:url(../assets/Images/ResidentialFour.jpg);
+}
+
+.im8{
+  background-image:url(../assets/Images/HealthCareFour.jpg);
+}
+
+
+.im9{
+  background-image:url(../assets/Images/HealthCareThree.jpg);
+}
+
+.Im1{
+  background-image:url(../assets/Images/HealthCareTwo.jpg);
+}
+
+
 
 hr{
   border: 2px solid black;
