@@ -198,7 +198,12 @@ outline: 1px solid rgb(7, 7, 7);
   }
 
   .navbar-nav{
+    transform: translate(600px);
+  }
+
+  .index-nav{
     transform: translatex(620px);
+
   }
 
 }
