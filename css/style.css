@@ -314,6 +314,9 @@ footer{
         display: block;  
     }
 
+    .navbar-nav{
+        transform: translateX(600px);
+      }
 /* Landing page */
 
 .FormButton{
