@@ -306,6 +306,9 @@ footer{
     .mobile-only{
         display: none;
     }
+    .hide{
+        display: none;
+    }
     .Desktop{
     display: block;
     color: black;
