@@ -253,6 +253,7 @@ footer{
 }
 .iconn{
 margin-left: 40vw;
+font-size: 2em;
 }
 
    /* --------------------media queries */
@@ -320,6 +321,10 @@ margin-left: 40vw;
     color: black;
     }  
 
+    .navbar-nav{
+        transform: translateX(500px);
+      }
+
 /* Landing page */
 
 .FormButton{
@@ -355,7 +360,7 @@ margin-left: 40vw;
         border: none;
     }
     .ico{
-        width: 50em;
+        font-size: 3em;
     }
  
    }
