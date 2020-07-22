@@ -14,7 +14,6 @@ body{
     overflow-y: hidden;
 }
 
-
 /* Scroll bar */
 body::-webkit-scrollbar {
   width: 0.2em;
@@ -105,7 +104,6 @@ outline: 1px solid rgb(7, 7, 7);
 
 .Desktop{
     display: none;
-
 }
 
 /* navbar */
@@ -148,13 +146,10 @@ a:hover{
     color: rgb(128, 128, 128);
 }
 
-
 /* about us page */
 .AboutUsImage{
-    width: 100%;
-    
+    width: 100%;  
 }
-
 
 /*Hover on test on Imagetest STYLING--*/
 
@@ -166,8 +161,6 @@ a:hover{
     text-align: center;
     margin-bottom: 50px;
 }
-
-
 
 .PortfolioDiv.PortfolioBlock .PortfolioImage{
     overflow: hidden;
@@ -224,12 +217,9 @@ a:hover{
     margin-top: 10px;
 }
 
-
-
 /* // ----Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) and (orientation: landscape) {
-
 
     .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText{
         opacity: 0;
@@ -247,8 +237,6 @@ a:hover{
         margin-right: 10vw;
     }
 
-
-
 }
 
 /* -Large devices (ipad pro) */
@@ -257,14 +245,9 @@ a:hover{
        
         margin-top: -23vh;
     }
-
-    
  }
  @media screen and (min-width: 1200px) {
 
-  
-     
- 
    }
   
  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}
