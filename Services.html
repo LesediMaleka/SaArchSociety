@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bootstrap refresher</title>
+    
    <!-- fontawesome icon style link -->
    <link rel="stylesheet" href="assests/fontawesome/css/all.min.css">
     <!-- link to bootsrap -->
@@ -14,68 +14,80 @@
      <!-- fontawesome icon style link -->
      <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
 
+   
+
      <!-- link to animate.css -->
      <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
  
      <!-- link to animate on scroll -->
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+     <title>Services page</title>
 </head>
 <body>
 
-      <!--navbar Section-->
-      <!--The navbar-->
+    <!--navbar Section-->
+    <div class="mobile-Nav">
+    
       <div class="container mobile-only">
-        <div class="row my-3">
-          <div class="col-10 col-xl-12 MediaDiv">
-    
-    
-                
-            <div>
-    
-              <a class="navbar-brand" href="index.html">
-              <img src="assets/Images/6 Degree Logo PNG.png" class="img-fluid mediaIcons" alt="Responsive image" width="30%">
-              </a>
+          <div class="row my-3">
+            <div class="col-10 col-xl-12 MediaDiv">
+      
+      
+                  
+              <div>
+      
+                <a class="navbar-brand" href="index.html">
+                <img src="assets/Images/6 Degree Logo PNG.png" class="img-fluid mediaIcons" alt="Responsive image" width="30%">
+                </a>
+              </div>
+      
             </div>
-    
+  
+  <!-- hidden navigation menu on mobile -->
+            <div class="col-2 mobile-only" >
+           
+      
+               <i class="fas fa-bars icons mobile-only mediaIcons Bars" style="cursor:pointer" onclick="openNav()"></i>
+      
+            </div>
           </div>
-          <div class="col-2 mobile-only" >
+        </div>
+      
+      
+      <div id="myNav" class="overlay container-fluid">
+        <div class="row my-3">
+          <div class="col-12">
+      
          
-    
-             <i class="fas fa-bars icons mobile-only mediaIcons Bars" style="cursor:pointer" onclick="openNav()"></i>
-    
+      
+              <div class="icons closebtn">
+                <i class="fas fa-times mediaIcons" onclick="closeNav()"></i>
+             </div>
+      
+      
           </div>
-        </div>
-      </div>
-    
-    <!-- hidden navigation menu on mobile -->
-    <div id="myNav" class="overlay container-fluid">
-      <div class="row my-3">
-        <div class="col-12">
-    
-       
-    
-            <div class="icons closebtn">
-              <i class="fas fa-times mediaIcons" onclick="closeNav()"></i>
-           </div>
-    
-    
-        </div>
-        <div class="col-12 my-5">
-          <div class="overlay-content text-center">
-            <ul>
-              <li><a href="AboutUs.html">About</a></li>
+          <div class="col-12 my-5">
+            <div class="overlay-content text-center">
+              <ul>
+                
             
-              <li><a href="Services.html">Services</a></li>
-              <li><a href="Portfolio.html">Portfolio</a></li>
-              <li><a href="Clients.html">Clients</a></li>
-              <li><a href="Contact.html">Contact</a></li>
-            </ul>
+                <li><a href="AboutUs.html">About</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+  </div>
+      
+  
+  
     
-    <div class="Desktop">
+  <div class="Desktop">
       <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="index.html">
             
@@ -86,71 +98,100 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
-                  
-
-                <li class="nav-PortfolioImage">
-                  <a class="nav-link" href="AboutUs.html">About</a>
-              </li>
-                 
+  
+                  <li class="nav-item">
+                      <a class="nav-link" href="AboutUs.html">About</a>
+                  </li>        
                   <li class="nav-PortfolioImage">
-                      <a class="nav-link" href="Services.html">Services</a>
-                  </li>
-      
-                  
-                  <li class="nav-PortfolioImage">
-                      <a class="nav-link" href="Portfolio.html">Portfolio</a>
-                  </li>
-
-                  <li class="nav-PortfolioImage">
-                    <a class="nav-link" href="Clients.html">Clients</a>
+                    <a class="nav-link" href="Portfolio.html">Portfolio</a>
                 </li>
 
-                  <li class="nav-PortfolioImage">
-                      <a class="nav-link" href="Contact.html">Contact</a>
+                <li class="nav-item">
+                  <strong>
+                    <a class="nav-link" href="Services.html">Services</a>
+                  </strong>
+              </li>
+                  <li class="nav-item">
+                   
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                   
                   </li>
               </ul>
           </div>
       </nav>
-    </div>
+   </div> 
 
-
+   <h2 class="fs-3 fs-sm-4 text-underline mb-3 text-center hide">Services</h2>
 
 <!-- Mobile Working Groups -->
 <div class="container">
-  <div class="row">
+  <!-- <div class="row">
       <div class="col-sm-12">
         <h1 class="Heading" style="text-align: center; text-transform: uppercase;">Call to action</h1>
         <p style="text-align: center;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat maiores cupiditate, voluptas excepturi autem reiciendis reprehenderit accusamus aspernatur, fuga sunt veritatis, vel ab temporibus sapiente animi repellat illum. Esse, animi.</p>
     </div>
-    </div>
+    </div> -->
 
    
     <div class="hide">
       <div class="row  ">
           <div class="col">
-            <i class="iconn fa fa-edit"></i>
+            
+            <i class="iconn fas fa-bezier-curve"></i>
           </div>
           <div class="col-12">
-              <p style="text-align: center;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat maiores cupiditate, voluptas excepturi autem reiciendis reprehenderit accusamus aspernatur, fuga sunt veritatis, vel ab temporibus sapiente animi repellat illum. Esse, animi.</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat maiores cupiditate, voluptas excepturi autem reiciendis reprehenderit accusamus aspernatur, fuga sunt veritatis, vel ab temporibus sapiente animi repellat illum. Esse, animi.</p>
           </div>
      </div>
-  <div class="row  ">
+  <div class="row">
       <div class="col">
         <i class=" iconn fa fa-edit"></i>
+      
       </div>
       <div class="col-12">
-          <p style="text-align: center;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat maiores cupiditate, voluptas excepturi autem reiciendis reprehenderit accusamus aspernatur, fuga sunt veritatis, vel ab temporibus sapiente animi repellat illum. Esse, animi.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat maiores cupiditate, voluptas excepturi autem reiciendis reprehenderit accusamus aspernatur, fuga sunt veritatis, vel ab temporibus sapiente animi repellat illum. Esse, animi.</p>
       </div>
  </div>
 
  <div class="row ">
   <div class="col">
-    <i class=" iconn fa fa-edit"></i>
+    <i class="iconn fas fa-campground"></i>
   </div>
   <div class="col-12">
-      <p style="text-align: center;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat maiores cupiditate, voluptas excepturi autem reiciendis reprehenderit accusamus aspernatur, fuga sunt veritatis, vel ab temporibus sapiente animi repellat illum. Esse, animi.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat maiores cupiditate, voluptas excepturi autem reiciendis reprehenderit accusamus aspernatur, fuga sunt veritatis, vel ab temporibus sapiente animi repellat illum. Esse, animi.</p>
   </div>
 </div>
+
+<div class="row ">
+  <div class="col">
+    <i class=" iconn fas fa-dungeon"></i>
+  </div>
+  <div class="col-12">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat maiores cupiditate, voluptas excepturi autem reiciendis reprehenderit accusamus aspernatur, fuga sunt veritatis, vel ab temporibus sapiente animi repellat illum. Esse, animi.</p>
+  </div>
+</div>
+
+
+<div class="row ">
+  <div class="col">
+    <i class="iconn fas fa-eye"></i>
+  </div>
+  <div class="col-12">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat maiores cupiditate, voluptas excepturi autem reiciendis reprehenderit accusamus aspernatur, fuga sunt veritatis, vel ab temporibus sapiente animi repellat illum. Esse, animi.</p>
+  </div>
+</div>
+
+<div class="row ">
+  <div class="col">
+    <i class=" iconn fas fa-ethernet"></i>
+  </div>
+  <div class="col-12">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat maiores cupiditate, voluptas excepturi autem reiciendis reprehenderit accusamus aspernatur, fuga sunt veritatis, vel ab temporibus sapiente animi repellat illum. Esse, animi.</p>
+  </div>
+</div>
+
+
+
 </div>
  </div>
  <!-- End of Working groups -->
@@ -171,7 +212,7 @@
                           <div class="p-2">
 
                               <!-- <p class="card-text TestimonalsContactText " style="font-size: 1em; color: white;"> -->
-                                  <a style="color: black;" href="https://www.linkedin.com/in/kate-marsay/ "> <i class=" ico fa fa-edit"></i></a>
+                                <i class="ico fas fa-bezier-curve"></i>
                           </div>
                       </div>
                   </div>
@@ -197,7 +238,7 @@
                       <div class="card-body ContactDiv ">
                           <!-- linKedIn icon -->
                           <div class="p-2 bd-highlight">
-                              <a style="color: black;" href="https://www.linkedin.com/in/kate-marsay/ "> <i class=" ico fa fa-edit"></i></a>
+                             <i class=" ico fa fa-edit"></i>
                           </div>
 
                       </div>
@@ -224,7 +265,7 @@
                       <div class="card-body ContactDiv ">
                           <!-- linKedIn icon -->
                           <div class="p-2 bd-highlight"></div>
-                              <a style="color: black;" href="https://www.linkedin.com/in/kate-marsay/ "> <i class=" ico fa fa-edit"></i></a>
+                          <i class="ico fas fa-campground"></i>
                         
 
                       </div>
@@ -251,7 +292,7 @@
                       <div class="card-body ContactDiv ">
                           <!-- linKedIn icon -->
                         
-                              <a style="color: black;" href="https://www.linkedin.com/in/kate-marsay/ "> <i class="ico fa fa-edit"></i></a>
+                          <i class=" ico fas fa-dungeon"></i>
                       
 
                       </div>
@@ -269,9 +310,68 @@
           </div>
       </div>
 
+
+           <!-- testimony 5-->
+           <div class="col-12 col-xl-6 my-2">
+            <div class="row">
+                <div class="col-5 col-xl-4">
+                    <div class="card ">
+                        
+                        <div class="card-body ContactDiv ">
+                            <!-- linKedIn icon -->
+                            <div class="p-2 bd-highlight"></div>
+                            <!-- <i class="ico fas fa-campground"></i> -->
+                            <i class="ico fas fa-eye"></i>
+                          
+  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7 col-xl-8">
+                  
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque atque sequi vitae,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam natus, eos sequi explicabo aperiam excepturi dolores dignissimos quis et omnis alias voluptatum veritatis,see.
+  
+                        <br>
+                     
+                    </p>
+                </div>
+            </div>
+        </div>
+  
+        <!-- testimony 6-->
+        <div class="col-12 col-xl-6 my-2">
+            <div class="row">
+                <div class="col-5 col-xl-4">
+                    <div class="card ">
+                       
+                        <div class="card-body ContactDiv ">
+                            <!-- linKedIn icon -->
+                          
+                            <!-- <i class=" ico fas fa-dungeon"></i> -->
+                            <i class=" ico fas fa-ethernet"></i>
+                        
+  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7 col-xl-8">
+                  
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque atque sequi vitae,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam natus, eos sequi explicabo aperiam excepturi dolores dignissimos quis et omnis alias voluptatum veritatis,see.
+  
+                        <br>
+                     
+                    </p>
+                </div>
+            </div>
+        </div>
+
   </div>
 
 </section>
+
+<br><br>
       
   <!-- footer section -->
   <footer>

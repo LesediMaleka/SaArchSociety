@@ -306,6 +306,9 @@ footer{
     .mobile-only{
         display: none;
     }
+    .hide{
+        display: none;
+    }
     .Desktop{
     display: block;
     color: black;
@@ -314,11 +317,14 @@ footer{
         display: block;  
     }
 
+    .navbar-nav{
+        transform: translateX(600px);
+      }
 /* Landing page */
 
 .FormButton{
-    width: 20vw;
-    margin-left: 15vw;
+    width: 15vw;
+    margin-left: 12vw;
 }
 
     
