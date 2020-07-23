@@ -140,7 +140,7 @@ h4{
 
 }
 
-/* Landing Page : Buhle*/
+
 .parallax {
     /* Full height */
     height: 100%; 
@@ -176,13 +176,12 @@ h4{
     background-image: url('https://www.architecturalrecord.com/ext/resources/Issues/2016/May/1605-Architecture-Creativity-Zaha-Hadid-01.jpg?1461696438');
   }
 
-  .navbar{
-      position: fixed;
-  }
+ 
 
   .social{
       z-index: 2;
       position: fixed;
+      transform: translate(100px,560px);
   }
 
  
@@ -287,6 +286,9 @@ h4{
     width: 100%;
     
 }
+.block{
+    margin-top: 6vh !important;
+}
 
 
 /* Portfolio Page */
@@ -294,13 +296,12 @@ h4{
 /*Hover on test on Imagetest STYLING--*/
 
 .PortfolioDiv{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-.PortfolioDiv{
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
     margin-bottom: 50px;
 }
+
 
 
 
@@ -550,15 +551,15 @@ font-size: 2em;
     .DesktopOnly{
         display: block;  
     }
+    .block{
+        margin-top: 10vh !important;
+    }
 
     .navbar-nav{
-        transform: translateX(400px);
+        transform: translateX(350px);
       }
 /* Landing page */
-.index-nav{
-    transform: translatex(620px);
 
-  }
 
 /* Portfolio page :Lesedi */
 .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText .PortfolioHeading{
@@ -580,11 +581,20 @@ font-size: 2em;
     
   /* landing page media icons:Buhle */
   .social{
-    transform: translate(750px,715px);
+    transform: translate(710px,695px);
 }
 
 .show-on-mobile{
   display: none;
+}
+.block{
+    margin-top: 2vh !important;
+}
+/* .ClientDiv{
+    margin-top: 20vh !important;
+} */
+.mobile-Nav{
+    overflow-y: auto;
 }
 
 

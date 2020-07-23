@@ -1,132 +1,24 @@
-
-.heroImage{
-  
-  height:100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.im1{
-  background-image:url(https://www.xtraspace.co.za/sites/default/files/images/articles/featured_0.jpg);
-}
-
-.im2{
-  background-image:url(../assets/Images/CommericialTwo.jpg);
-}
-
-.im3{
-  background-image:url(../assets/Images/CommericialFour.jpg);
-}
-
-.im4{
-  background-image:url(../assets/Images/CommericialFive.jpg);
-}
-
-.im5{
-  background-image:url(../assets/Images/ResidentialTwo.jpg);
-}
-
-.im6{
-  background-image:url(../assets/Images/ResidentialFive.jpg);
-}
-
-.im7{
-  background-image:url(../assets/Images/ResidentialFour.jpg);
-}
-
-.im8{
-  background-image:url(../assets/Images/HealthCareFour.jpg);
-}
-
-
-.im9{
-  background-image:url(../assets/Images/HealthCareThree.jpg);
-}
-
-.Im1{
-  background-image:url(../assets/Images/HealthCareTwo.jpg);
-}
-
-
-
-hr{
-  border: 2px solid black;
-}
-p{
-  font-size: 14px;
-  font-weight: 350;
-  line-height: 18px;
-  text-align: justify;
-  text-size-adjust: 2px;
-  margin: 20px;
-}
-.projectName{
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 18px;
-  text-align: justify;
-  text-size-adjust: 2px;
-  margin: 20px;
-}
-
-
-.div{
-  width: 90vw;
-  /* height: auto; */
-  margin: auto;
-  text-align: center;
-  /* background:lightcoral; */
-  margin-bottom: 5vh;
-}
-
- /* --------------------------------------------------------------media queries */
-
-/* // Extra small devices (portrait phones, less than 576px) */
-/* // No media query for `xs` since this is the default in Bootstrap */
-
-/* // --------------------------------------------------------------Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (orientation: landscape) { 
-}
-
-/* // --------------------------------------------------------------Medium devices (tablets) */
-@media (min-width: 768px) {
-    
-      
-}
-
-/* // --------------------------------------------------------------Large devices (ipad pro) */
-@media (min-width: 992px) {
-   
-  
-}
-
-/* // --------------------------------------------------------------Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-}
-/* --------------------------------------------------------------Extra large devices landscape */
-@media (min-width: 1200px) and (orientation: landscape) { 
-  .heroImage{
-      margin-top: -12.3%;
-      /* width: 90%;
-      height: 76vh; */
-      /* margin-bottom: 80vh; */
-  
-  }
-
+.mobile-Nav{
+    position: fixed;
+    width: 100vw;
+    z-index: 4;
+    opacity: 8;
+    background-color: white;
+  } 
  
-.div{
-  margin-top: 5%;
-  width: 90%;
-  height:80%;
-  padding: 20vh;
-  /* margin-bottom: 10vh; */
-}
-}
-
-/* --------------------------------------------------------------Internet Explorer */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-}
-
+  
+  
+   /* -Large devices (ipad pro) */
+   @media (min-width: 992px) { 
+  
+  
+    .mobile-Nav{
+        transform: translateX(840px);
+      }
+  }
+  
+  
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}
 
 
 
