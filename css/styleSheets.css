@@ -588,11 +588,14 @@ font-size: 2em;
   display: none;
 }
 .block{
-    margin-top: 2vh !important;
+    margin-top: 5vh !important;
 }
-/* .ClientDiv{
-    margin-top: 20vh !important;
-} */
+.ContactDiv{
+    margin-top: 12vh !important;
+}
+.ClientDiv{
+    margin-top: 12vh !important;
+}
 .mobile-Nav{
     overflow-y: auto;
 }
