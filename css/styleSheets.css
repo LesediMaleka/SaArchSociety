@@ -137,46 +137,24 @@ h4{
 /* Desktop navbar section */
 .Desktop{
     display: none;
-
 }
 
+.mobile-Nav{
+    display: block;
+    color: black;
+        z-index: 2;
+        position: fixed;
+}
 
 .parallax {
     /* Full height */
     height: 100%; 
-  
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  .zero{
-    background-image: url('https://cifa.org.za/wp-content/uploads/2020/04/08.-Darryl-Croome_Waters-Edge-1-scaled.jpg');
-  
-  }
-
-  .one{
-    background-image: url('https://gsquared.co.za/wp-content/uploads/2019/08/GSQUARED-Exterior-3-2400x1600.jpg');
-  }
-
-  .two{
-    background-image: url('https://www.vpang.com/wp-content/uploads/2019/06/architecture_m1_re-4.jpg');
-  }
-
-  .three{
-    background-image: url('https://images.adsttc.com/media/images/5d67/9f09/284d/d1be/6000/0109/newsletter/02_ZQ.jpg?1567071993');
-  }
-
-  .four{
-    background-image: url('https://www.thespruce.com/thmb/d_v15Xvrf64drPPsUzNFLHPj2OM=/3024x3024/filters:fill(auto,1)/pixasquare-4ojhpgKpS68-unsplash-ca4afd459306430ab50c2cc32ce2715d.jpg');
-  }
-  .five{
-    background-image: url('https://www.architecturalrecord.com/ext/resources/Issues/2016/May/1605-Architecture-Creativity-Zaha-Hadid-01.jpg?1461696438');
-  }
-
- 
 
   .social{
       z-index: 2;
@@ -547,6 +525,8 @@ font-size: 2em;
     .Desktop{
     display: block;
     color: black;
+        z-index: 2;
+        position: fixed;
     }  
     .DesktopOnly{
         display: block;  
